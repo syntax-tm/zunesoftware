@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>zunesoftware</id>
+    <title>Zune Software (Install)</title>
+    <version>4.8.2345.0</version>
+    <packageSourceUrl>https://github.com/treymorris/zunesoftware</packageSourceUrl>
+    <authors>Microsoft</authors>
+    <owners>treymorris</owners>
+    <description>The Zune software functions as management software for the device, a full media player application with a library, an interface to the Zune Marketplace, and as a media streaming server. Zune Software is used to sync with all devices with Zune functionality, including the Zune devices, Windows Phone 7, and Microsoft Kin. Zune devices work exclusively with the Zune software and Marketplace.</description>
+    <copyright>Copyright © 2011 Microsoft Corporation</copyright>
+    <iconUrl>https://cdn.jsdelivr.net/gh/treymorris/zunesoftware@/icon/adobe-acrobat-reader-dc.png</iconUrl>
+ </metadata>
+<files>
+  <file src="tools\**" target="tools" />
+</files>
+</package>
