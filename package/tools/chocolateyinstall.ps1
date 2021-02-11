@@ -1,16 +1,6 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿$packageName= 'zunesoftware'
+$url = 'https://sourceforge.net/projects/zunesoftware/files/ZunePackage.exe'
+$fileType = 'exe'
+$silentArgs = '/quiet /qn /accepteula /passive /q /verysilent /silent /s'
 
-$packageName= 'zunesoftware'
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'ZunePackage.exe'
-
-$packageArgs = @{
-  packageName   = $packageName
-  fileType      = 'exe'
-  file         = $fileLocation
-
-  silentArgs    = "/S"
-  validExitCodes= @(0)
-}
-
-Install-ChocolateyInstallPackage @packageArgs
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url

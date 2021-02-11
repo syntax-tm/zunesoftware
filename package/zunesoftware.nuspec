@@ -9,7 +9,7 @@
     <owners>treymorris</owners>
     <description>The Zune software functions as management software for the device, a full media player application with a library, an interface to the Zune Marketplace, and as a media streaming server. Zune Software is used to sync with all devices with Zune functionality, including the Zune devices, Windows Phone 7, and Microsoft Kin. Zune devices work exclusively with the Zune software and Marketplace.</description>
     <copyright>Copyright © 2011 Microsoft Corporation</copyright>
-    <iconUrl>https://cdn.jsdelivr.net/gh/treymorris/zunesoftware@/icon/adobe-acrobat-reader-dc.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/treymorris/zunesoftware@8171f5957ed109d69ff9f4bbba74facecbd64a0e/icon/zune_icon.png</iconUrl>
  </metadata>
 <files>
   <file src="tools\**" target="tools" />
