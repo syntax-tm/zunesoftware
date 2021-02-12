@@ -6,6 +6,13 @@ Zune software Chocolatey package source.
 
 - [View on GitHub](https://github.com/treymorris/zunesoftware)
 - [View on SourceForge](https://sourceforge.net/projects/zunesoftware)
+- [View on Chocolatey](https://chocolatey.org/packages/zunesoftware/4.8.2345.0)
+
+## About Zune
+
+> Zune is a discontinued media management software for Microsoft Windows that functions as a full media player application with a library, an interface to the Zune Marketplace, and as a media streaming server. The software is used to sync with all devices with Zune functionality including the Zune 4, 8, 16, 30, 80, 120, Zune HD, Windows Phone 7, and Microsoft Kin. Zune devices work exclusively with the Zune software, which applies many design principles of Microsoft's Metro design language.
+
+_You can read more about Zune on [Wikipedia](https://en.wikipedia.org/wiki/Zune_software)._
 
 ## Install
 
@@ -27,7 +34,13 @@ To create a new package run the following in the `.\tools` directory and `choco`
 choco pack
 ```
 
-You can install the package locally using this command (note: the `--force` is only needed when you are installing without uninstalling).
+You can install the package locally using this command:
+
+```powershell
+choco install zunesoftware -dv -s .
+```
+
+If you want to re-install without uninstalling, you can use the `--force` switch:
 
 ```powershell
 choco install zunesoftware -dv -s . --force
