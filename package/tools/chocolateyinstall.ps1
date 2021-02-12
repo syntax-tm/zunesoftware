@@ -1,5 +1,5 @@
 ﻿$packageName= 'zunesoftware'
-$url = 'https://sourceforge.net/projects/zunesoftware/files/ZunePackage.exe'
+$url = 'https://archive.org/download/zunepackage_4.8.2345.0/ZunePackage.exe'
 $fileType = 'exe'
 $silentArgs = '/quiet /qn /accepteula /passive /q /verysilent /silent /s'
 

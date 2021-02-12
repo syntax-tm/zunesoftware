@@ -14,8 +14,9 @@
     <authors>Microsoft</authors>
     <owners>treymorris</owners>
     <copyright>Copyright © 2011 Microsoft Corporation</copyright>
-    <iconUrl>https://cdn.jsdelivr.net/gh/treymorris/zunesoftware@master/icon/zune_icon_128x128.png</iconUrl>
+    <iconUrl>https://archive.org/download/zunepackage_4.8.2345.0/zune_icon_128x128.png</iconUrl>
     <tags>zune desktop mp3 music groove windows microsoft software app player live media</tags>
+    <licenseUrl>https://archive.org/download/zunepackage_4.8.2345.0/LICENSE.txt</licenseUrl>
  </metadata>
 <files>
   <file src="tools\**" target="tools" />
