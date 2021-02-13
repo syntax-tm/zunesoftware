@@ -1,5 +1,9 @@
 # zunesoftware
 
+<div style="text-align: center">
+    <img src="./icon/zune_logo.svg">
+</div>
+
 Zune software Chocolatey package source.
 
 ## Quick Links
@@ -7,6 +11,7 @@ Zune software Chocolatey package source.
 - [View on GitHub](https://github.com/treymorris/zunesoftware)
 - [View on SourceForge](https://sourceforge.net/projects/zunesoftware)
 - [View on Chocolatey](https://chocolatey.org/packages/zunesoftware/4.8.2345.0)
+- [View Release Notes](https://blogs.windows.com/windowsexperience/2011/08/23/now-available-zune-4-8)
 
 ## About Zune
 
@@ -26,9 +31,19 @@ choco install zunesoftware
 choco uninstall zunesoftware
 ```
 
+### Manual Uninstall
+
+This package uses the Chocolatey auto uninstaller and as such does not contain a `chocolateyuninstall.ps1` file. The auto uninstaller functions the same way as the `Programs and Features` does in the `Control Panel`. You can read more about the automatic uninstaller [here](https://docs.chocolatey.org/en-us/choco/commands/uninstall).
+
+For Zune, the `UninstallString` can be found in the registry at `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Zune`. If you wish to uninstall the Zune software manually, you can run the following command:
+
+```powershell
+"C:\Program Files\Zune\ZuneSetup.exe" /x
+```
+
 ## Build
 
-To create a new package run the following in the `.\tools` directory and `choco` will generate a `.nupkg` based on the `.nuspec` file.
+To create a new Chocolatey package (`*.nupkg`) run the following command in the `.\tools` directory. The `pack` command will generate a `.nupkg` based on the `.nuspec` file.
 
 ```powershell
 choco pack
