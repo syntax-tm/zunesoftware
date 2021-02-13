@@ -1,6 +1,6 @@
 # zunesoftware
 
-<div style="text-align: center">
+<p align="center">
     <img src="./icon/zune_logo.svg">
 </div>
 
