@@ -6,16 +6,16 @@
     <summary>Zune software is a digital media jukebox that enables you to organize your favorite music, videos, and pictures.</summary>
     <description>Zune software is a digital media jukebox that enables you to organize your favorite music, videos, and pictures.</description>
     <version>4.8.2345.0</version>
-    <projectUrl>https://github.com/treymorris/zunesoftware</projectUrl>
+    <projectUrl>https://github.com/syntax-tm/zunesoftware</projectUrl>
     <projectSourceUrl>https://blogs.windows.com/windowsexperience/tag/zune-software/</projectSourceUrl>
-    <packageSourceUrl>https://github.com/treymorris/zunesoftware</packageSourceUrl>
-    <bugTrackerUrl>https://github.com/treymorris/zunesoftware/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/syntax-tm/zunesoftware</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/syntax-tm/zunesoftware/issues</bugTrackerUrl>
     <releaseNotes>https://blogs.windows.com/windowsexperience/2011/08/23/now-available-zune-4-8/</releaseNotes>
     <authors>Microsoft</authors>
     <owners>treymorris</owners>
     <copyright>Copyright © 2011 Microsoft Corporation</copyright>
     <iconUrl>https://archive.org/download/zunepackage_4.8.2345.0/zune_icon_128x128.png</iconUrl>
-    <tags>zune desktop mp3 music groove windows microsoft software app player live media</tags>
+    <tags>zune desktop mp3 music groove windows microsoft software app player live media zunesoftware</tags>
     <licenseUrl>https://archive.org/download/zunepackage_4.8.2345.0/LICENSE.txt</licenseUrl>
  </metadata>
 <files>
