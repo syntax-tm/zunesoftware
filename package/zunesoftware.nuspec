@@ -12,7 +12,7 @@
     <bugTrackerUrl>https://github.com/syntax-tm/zunesoftware/issues</bugTrackerUrl>
     <releaseNotes>https://blogs.windows.com/windowsexperience/2011/08/23/now-available-zune-4-8/</releaseNotes>
     <authors>Microsoft</authors>
-    <owners>treymorris</owners>
+    <owners>syntax-tm</owners>
     <copyright>Copyright © 2011 Microsoft Corporation</copyright>
     <iconUrl>https://archive.org/download/zunepackage_4.8.2345.0/zune_icon_128x128.png</iconUrl>
     <tags>zune desktop mp3 music groove windows microsoft software app player live media zunesoftware</tags>
